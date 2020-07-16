@@ -16,4 +16,7 @@ export default Layout
 
 const MainWrapper = styled.div`
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding: 2rem 0;
 `

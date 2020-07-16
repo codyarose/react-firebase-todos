@@ -2,7 +2,7 @@ import React, { FC } from 'react'
 import { Styled } from './Navbar.styled'
 
 import Logo from '../../Logo'
-import Container from '../../../hoc/layout/elements/Container'
+import { Container } from '../../../hoc/layout/elements'
 import NavItems from '../NavItems'
 
 const Navbar: FC = () => {

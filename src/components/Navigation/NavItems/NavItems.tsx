@@ -13,6 +13,7 @@ const NavItems: FC<Props> = () => {
 			<Styled.List>
 				<NavItem link="/">Home</NavItem>
 				<NavItem link="todos">Todos</NavItem>
+				<NavItem link="login">Login</NavItem>
 			</Styled.List>
 		</Styled.Nav>
 	)
