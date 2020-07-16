@@ -8,7 +8,7 @@ const FormWrapper = styled.div`
 	max-width: 46rem;
 	padding: 2rem;
 	border-radius: 4px;
-	border: 1px solid lightgray;
+	border: 1px solid gray;
 `
 
 const SCForm = styled(Form)`
