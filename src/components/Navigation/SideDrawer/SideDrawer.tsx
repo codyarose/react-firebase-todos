@@ -5,9 +5,7 @@ import Logo from '../../Logo'
 // import NavItems from '../NavItems'
 import Hamburger from './Hamburger'
 
-interface Props {}
-
-const SideDrawer: FC<Props> = () => {
+const SideDrawer: FC = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	return (
 		<>
