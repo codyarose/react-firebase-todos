@@ -8,10 +8,15 @@ const Wrapper = styled.header`
 	background-color: ${({ theme }) => theme.colors.main};
 	padding: 0.5rem 2rem;
 	color: ${({ theme }) => theme.colors.white};
+
+	/* @media ${({ theme }) => theme.mediaQueries.sm} {
+		display: none;
+	} */
 `
 
 const Content = styled.div`
 	display: flex;
+	width: 100%;
 	justify-content: space-between;
 	align-items: center;
 `
